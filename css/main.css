@@ -32,7 +32,7 @@ body {
 }
 
 .header {
-  background-image: url('writing2.jpg');
+  background-image: url('../imgs/writing2.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -50,9 +50,7 @@ body {
 }
 
 /*#6ab446--green color*/
-
 .description p {
-  color: ;
   font-size: 1.3rem;
   line-height: 1.5;
   font-family: sans-serif;
@@ -64,10 +62,24 @@ body {
   border-radius: 0;
   color:#fff;
 }
+
+
 .description button:hover {
   border:1px solid #fff;
   background:#fff;
   color:#000;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+
+
+label, .btn:focus,.btn:active {
+  color: #ccc;  
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
 .features {
@@ -137,15 +149,15 @@ a {
 }
 
 /*codes below are css for the form*/
-form {
+/* form {
   padding: 15px;
   border: 1px solid #666;
   background: #fff;
   display: none;
-}
+} */
 
-#formButton {
+/* #formButton {
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
+} */

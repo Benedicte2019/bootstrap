@@ -1,154 +1,161 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <title>Personality</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
 
-  </head>
+<head>
+  <title>Personality</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 
-  <body>
+</head>
 
-    <nav class="navbar navbar-expand-md">
+<body>
 
-  <!--<a class="navbar-brand" href="#">Logo</a>-->
-  <!--<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-    <span class="navbar-toggler-icon"></span>
-    <div class="overlay"></div>
-  </button>-->
-<!--  <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-      <span class="caret"></span></button>
-      <ul class="dropdown-menu">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
-      </ul>
+  <nav class="navbar navbar-expand-md">
 
-    </div>-->
+    <div class="collapse navbar-collapse" id="main-navigation"></div>
+    <header class="page-header header container-fluid"></header>
+    <div class="description" id="a">
+      <h1><b>Welcome to Dr Hands ✍</b></h1>
+      <p>This platform aims to make you discover if you're an introvert or an extrovert based on your handwriting,
+        considering features related to your handwriting such as its size, curves, baseline, and other features that
+        you'll discover once you click the Take a test button below this description.Have fun!</p>
+      
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+  
 
-  <div class="collapse navbar-collapse" id="main-navigation">
-<!--code in div below creates overlay of header-->
+  </nav>
 
 
 
-  <!--<ul class="navbar-nav">
-<div class="overlay"></div>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>-->
+  <!--code below is for the footer part which has 2 columns-->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <!--code for columns-->
+          <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+          <p>In this project we used a machine learning model to make the prediction and it was exciting from learning
+            to practicing; we really enjoyed to.</p>
+          <p></p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h6 class="text-uppercase font-weight-bold">Contacts</h6>
+          <p>3591 Bagamoyo Road, Kijitonyama, DSM
+            <br />info@teambright.com
+            <br />+ 255 234 567 88
+            <br />+ 255 234 567 89</p>
+        </div>
+      </div>
+      <div class="footer-copyright text-center">© 2019 Copyright: TeamBright.com</div>
+  </footer>
 
+
+
+
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New Test</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <form>
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Example select</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+
+
+
+
+                  <div class="form-group">
+                      <label for="exampleFormControlSelect1">Example select</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Example select</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+              
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Slank</label>
+              </div>
+
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Default checkbox</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                <label class="form-check-label" for="defaultCheck2">
+                  Disabled checkbox
+                </label>
+              </div>
+
+
+
+            
+              
+            </form>
+            
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
   </div>
-  <header class="page-header header container-fluid">
-</header>
-<div class="description" id="a">
-  <h1><b>Welcome to the Landing Page!</b></h1>
-<p>This platform aims to make you discover if you're an introvert or an extrovert based on your handwriting, considering features related to your handwriting such as its size, curves, baseline, and other features that you'll discover once you click the Take a test button below this description.Have fun!</p>
-
-    <!--onclick will handle an event using js func myFunction-->
-    <!--<button class="btn btn-outline-secondary btn-lg" onclick="myFunction()">Take a test!</button>-->
-    <button class="btn btn-outline-secondary btn-lg">Take a test!</button>
-
-    <!--<a href="index2.html">
-      <b>Get started</b></a>-->
-
-
-      <!--code to display form when button clicked and hide-->
-      <!--<form id="form1" style="display:none;">
-        <b>First Name:</b> <input type="text" name="firstName">
-        <br><br>
-        <b>Last Name: </b><input type="text" name="lastName">
-        <br><br>
-        <b> Age:</b>
-        <br>
-        <input type="radio" name="age" value="adolescent"> 0 - 19 years
-        <br>
-        <input type="radio" name="age" value="mid"> 20 - 59 years
-        <br>
-        <input type="radio" name="age" value="senior"> 60 + years
-        <br> <br>
-        <b>Preferred Color:</b>
-        <select name="color">
-          <option value="blue">Blue</option>
-          <option value="green">Green</option>
-          <option value="yellow">Yellow</option>
-          <option value="red">Red</option>
-          <option value="pink">Pink</option>
-        </select>
-        <br><br>
-        <b>Comment:</b>
-        <br>
-        <textarea name="comment">
-          Enter your comment here
-        </textarea>
-        <br><br>
-      </form>-->
-
-
-</div>
-<div class="b">
-  <form id="form1">
-<input name="a_input" value="A: type here"/>
-<input type="submit"/>
-</form>
-  <p id="demo"></p>
-</div>
-
-
-
-</nav>
-<!--<div class="container features">
-  <div class="row">
-    <div class="left">
-      <h3 class="feature-title">Lorem ipsum</h3>
-      <img src="images/column-1.jpg" class="img-fluid">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-    </div>
-    <div class="right">
-      <h3 class="feature-title">Lorem ipsum</h3>
-      <img src="images/column-2.jpg" class="img-fluid">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
-    </div>
-  </div>
-</div>-->
-
-
-<!--code below is for the footer part which has 2 columns-->
-<footer class="page-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-12"> <!--code for columns-->
-      <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-      <p>In this project we used a machine learning model to make the prediction and it was exciting from learning to practicing; we really enjoyed to.</p>
-      <p></p>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <h6 class="text-uppercase font-weight-bold">Contacts</h6>
-      <p>3591 Bagamoyo Road, Kijitonyama, DSM
-      <br/>info@teambright.com
-      <br/>+ 255 234 567 88
-      <br/>+ 255 234 567 89</p>
-    </div>
-  </div>
-  <div class="footer-copyright text-center">© 2019 Copyright: TeamBright.com</div>
-</footer>
 
 
 
 
-    <script src="jquery-3.4.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
