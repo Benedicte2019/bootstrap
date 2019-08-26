@@ -21,9 +21,9 @@
       <p>This platform aims to make you discover if you're an introvert or an extrovert based on your handwriting,
         considering features related to your handwriting such as its size, curves, baseline, and other features that
         you'll discover once you click the Take a test button below this description.Have fun!</p>
-      
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
-  
+
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Take a test!</button>
+
 
   </nav>
 
@@ -66,17 +66,57 @@
           </button>
         </div>
         <div class="modal-body">
-          
+
             <form>
 
+
+              <div class="form-group">
+                  <label for="exampleFormControlSelect1">Select Size</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>large</option>
+                    <option>average</option>
+                    <option>small</option>
+
+                  </select>
+                </div>
+
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
+                    <label for="exampleFormControlSelect1">Select Spacing</label>
                     <select class="form-control" id="exampleFormControlSelect1">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
+                      <option>far</option>
+                      <option>average</option>
+                      <option>small</option>
+
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                      <label for="exampleFormControlSelect1">Select Gaps</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>small</option>
+                        <option>average</option>
+                        <option>large</option>
+
+                      </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Select Stringing</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>garland</option>
+                          <option>thread</option>
+                          <option>arcades</option>
+
+                        </select>
+                      </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Select Pressure</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>hard</option>
+                      <option>light</option>
+                      <option>average</option>
+
                     </select>
                   </div>
 
@@ -84,30 +124,29 @@
 
 
                   <div class="form-group">
-                      <label for="exampleFormControlSelect1">Example select</label>
+                      <label for="exampleFormControlSelect1">Select Slant</label>
                       <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option>straight</option>
+                        <option>left</option>
+                        <option>right</option>
+
                       </select>
                     </div>
 
 
 
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Example select</label>
+                        <label for="exampleFormControlSelect1">Select Baseline</label>
                         <select class="form-control" id="exampleFormControlSelect1">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
+                          <option>downward</option>
+                          <option>wavy</option>
+
                         </select>
                       </div>
-              
-              <div class="form-group form-check">
+
+            <!-- Following codes is for checkboxes
+
+             <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Slank</label>
               </div>
@@ -122,20 +161,20 @@
                 <label class="form-check-label" for="defaultCheck2">
                   Disabled checkbox
                 </label>
-              </div>
+              </div>-->
 
 
 
-            
-              
+
+
             </form>
-            
+
 
 
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Send message</button>
+          <button type="button" class="btn btn-primary">Submit</button>
         </div>
       </div>
     </div>
